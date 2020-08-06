@@ -1,0 +1,60 @@
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\bin\Debug\netcoreapp2.2\DojoSurveyValidation.deps.json
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\bin\Debug\netcoreapp2.2\DojoSurveyValidation.runtimeconfig.json
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\bin\Debug\netcoreapp2.2\DojoSurveyValidation.runtimeconfig.dev.json
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\bin\Debug\netcoreapp2.2\DojoSurveyValidation.dll
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\bin\Debug\netcoreapp2.2\DojoSurveyValidation.pdb
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\bin\Debug\netcoreapp2.2\DojoSurveyValidation.Views.dll
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\bin\Debug\netcoreapp2.2\DojoSurveyValidation.Views.pdb
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.csprojAssemblyReference.cache
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.csproj.CoreCompileInputs.cache
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.RazorAssemblyInfo.cache
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.RazorAssemblyInfo.cs
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.AssemblyInfoInputs.cache
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.AssemblyInfo.cs
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.TagHelpers.input.cache
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.TagHelpers.output.cache
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.RazorCoreGenerate.cache
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.RazorTargetAssemblyInfo.cache
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.RazorTargetAssemblyInfo.cs
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.Views.pdb
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.dll
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.pdb
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.csproj.CopyComplete
+C:\Users\berek\Desktop\C#\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\Home\Results.g.cshtml.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\bin\Debug\netcoreapp2.2\DojoSurveyValidation.deps.json
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\bin\Debug\netcoreapp2.2\DojoSurveyValidation.runtimeconfig.json
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\bin\Debug\netcoreapp2.2\DojoSurveyValidation.runtimeconfig.dev.json
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\bin\Debug\netcoreapp2.2\DojoSurveyValidation.dll
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\bin\Debug\netcoreapp2.2\DojoSurveyValidation.pdb
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\bin\Debug\netcoreapp2.2\DojoSurveyValidation.Views.dll
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\bin\Debug\netcoreapp2.2\DojoSurveyValidation.Views.pdb
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.csprojAssemblyReference.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.csproj.CoreCompileInputs.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.RazorAssemblyInfo.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.RazorAssemblyInfo.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.AssemblyInfoInputs.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.AssemblyInfo.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.TagHelpers.input.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.TagHelpers.output.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.RazorCoreGenerate.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\Home\Results.g.cshtml.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.RazorTargetAssemblyInfo.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.RazorTargetAssemblyInfo.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.Views.pdb
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.dll
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.pdb
+C:\Users\berek\Desktop\C#\ASP.NET Core\DojoSurveyValidation\obj\Debug\netcoreapp2.2\DojoSurveyValidation.csproj.CopyComplete

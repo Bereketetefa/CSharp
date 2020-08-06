@@ -1,0 +1,113 @@
+﻿@* @{
+    ViewData["Title"] = "Home Page";
+} *@
+@model User
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link srel="stylesheet" type="text/css" media="screen" href="~/css/styling.css"/>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    .jumbotron{
+    background-color: #f4511e;
+    color: #fff;
+    }
+    .logo{
+    font-size: 200px;
+    }
+    .container-fluid{
+    text-align: center;
+    margin: 25px 0;
+    }
+    .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    height: 33px;
+    line-height: 60px;
+}
+
+    </style>
+<div class="jumbotron text-center">
+    <h1>Wedding Planner</h1> 
+    <p>We specialize in Weddings</p> 
+        <div id =Wrapper>
+        <div id="container">
+        <div class="box1">
+            <h1>Register</h1>
+            <form asp-action="Dashboard" asp-controller="Home" method="post">
+                <div class="form-group">
+                    <span asp-validation-for="FirstName"></span>
+                    <label asp-for="FirstName"></label>
+                    <input asp-for="FirstName" class="form-control">
+                </div>
+                <div class="form-group">
+                    <span asp-validation-for="LastName"></span>
+                    <label asp-for="LastName"></label>
+                    <input asp-for="LastName" class="form-control">
+                </div>
+                <div class="form-group">
+                    <span asp-validation-for="Email"></span>
+                    <label asp-for="Email"></label>
+                    <input asp-for="Email" class="form-control">
+                </div>    
+                <div class="form-group">
+                    <span asp-validation-for="Password"></span>
+                    <label asp-for="Password"></label>
+                    <input type="password" asp-for="Password" class="form-control">
+                </div>
+                <div class="form-group">
+                    <span asp-validation-for="Confirm"></span>
+                    <label asp-for="Confirm"></label>
+                    <input asp-for="Confirm" class="form-control">
+                </div>  
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+    </div>
+    <div class="text-center m-3">
+    <form asp-action="Login" method="get">
+        <p>already registered?        <a href="../Login">Login</a></p>
+    </form>
+</div>
+
+<div class="container-fluid">
+    <h2>SERVICES</h2>
+    <h4>What we offer</h4>
+    <br>
+    <div class="row">
+        <div class="col-sm-4">
+        <span class="glyphicon glyphicon-off"></span>
+        <h4>POWER</h4>
+        </div>
+        <div class="col-sm-4">
+        <span class="glyphicon glyphicon-heart"></span>
+        <h4>LOVE</h4>
+        </div>
+        <div class="col-sm-4">
+        <span class="glyphicon glyphicon-lock"></span>
+        <h4>JOB DONE</h4>
+        </div>
+        </div>
+        <br><br>
+    <div class="row">
+        <div class="col-sm-4">
+        <span class="glyphicon glyphicon-leaf"></span>
+        <h4>GREEN</h4>
+        </div>
+        <div class="col-sm-4">
+        <span class="glyphicon glyphicon-certificate"></span>
+        <h4>CERTIFIED</h4>
+        </div>
+        <div class="col-sm-4">
+        <span class="glyphicon glyphicon-wrench"></span>
+        <h4>HARD WORK</h4>
+        </div>
+    </div>
+
+    
+</div>
+</div>

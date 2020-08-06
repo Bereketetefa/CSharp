@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Success";
+}
+@model User
+<div style="margin: 200px auto; text-align: center">
+    <h1>Success! Welcome</h1>
+    @* <h4>@ViewBag.first_name</h4> *@
+    <div class="text-center m-3">
+    <form asp-action="Index" method="get">
+        <input type="submit" asp-action="Index" method="get" value="LogOut" class="btn btn-warning btn-outline-dark">
+    </form>
+</div>

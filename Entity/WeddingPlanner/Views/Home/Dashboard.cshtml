@@ -1,0 +1,78 @@
+@model Plan
+    <style>
+    .jumbotron{
+    background-color: #f4511e;
+    color: #fff;
+    }
+    .logo{
+    font-size: 200px;
+    }
+    .container-fluid{
+    text-align: center;
+    margin: 25px 0;
+    }
+    .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    height: 33px;
+    line-height: 60px;
+    } 
+  
+    </style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" media="screen" href="~/css/styling.css" />
+<div class="jumbotron text-center">
+
+<div id="wrapper">
+    <h1>Welcome to the Wedding Planner</h1>
+    <a href="../logout">Log out</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Wedding</th>
+                <th scope="col">Date</th>
+                <th scope="col">Guest</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            @foreach(var l in @ViewBag.weddings)
+            {
+            <tr>
+                <td>@l.WedderOne & @l.WedderTwo</td>
+                <td>@l.WeddingDate</td>
+                <td>@l.GuestList.Count</td>
+                <td> 
+                    <form action="Delete/{id}" method="post">
+                        <button type="submit" class="btn btn-success">Delete</button>
+                    </form>
+                    <form action="../RemoveRsvp/@ViewBag.WeddPlanId" method="post">
+                        <button type="submit" class="btn btn-success">UN-RSVP</button>
+                    </form>
+                    <form action="../AddRsvp/@ViewBag.WeddPlanId" method="post">
+                        <button type="submit" class="btn btn-success">RSVP</button>
+                    </form>
+                    @* @if(@ViewBag.weddings == @ViewBag.User)
+                    {
+                    <form action="Delete/{id}" method="post">
+                        <button type="submit" class="btn btn-success">Delete</button>
+                    </form>
+                    <form action="../RemoveRsvp/@ViewBag.WeddPlanId" method="post">
+                        <button type="submit" class="btn btn-success">UN-RSVP</button>
+                    </form>
+                    <form action="../AddRsvp/@ViewBag.WeddPlanId" method="post">
+                        <button type="submit" class="btn btn-success">RSVP</button>
+                    </form>
+                    } *@
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<a class="btn btn-primary" href="../Weddingbuild">New Wedding</a>
+
+</div>

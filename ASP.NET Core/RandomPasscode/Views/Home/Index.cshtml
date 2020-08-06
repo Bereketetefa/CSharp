@@ -1,0 +1,29 @@
+﻿
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+@model RandomString
+@using System;
+@using System.Collections.Generic;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Random Passcode Generator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h3>Passcode #@ViewBag.Count</h3>
+        <form action="/result" method="post">
+            <a href="">Generate</a>
+            <p>@Model.Random()</p>
+            <a href="clear">Restart</a> 
+        </form>
+    
+    </body>
+</html>

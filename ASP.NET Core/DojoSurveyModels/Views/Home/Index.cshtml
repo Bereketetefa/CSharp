@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+@{
+    ViewData["Title"] = "Home Page";
+}
+@Model 
+    <fieldset>
+        <legend>Dojo Survey!</legend>
+        <form action="/survey" method="POST">
+            <div>
+                <label>Your name:</label>
+                <input type="text" name="Name">
+            </div> 
+            <div>
+                <label>Dojo Location:</label>
+                <select name="Location">
+                    <option>Los angles</option>
+                    <option>Washington</option>
+                    <option>Seattle</option>
+                    <option>San Jose</option>
+                </select>
+            </div>
+            <div>
+                <label>Favorite Language:</label>
+                <select name="Language">
+                    <option>Python</option>
+                    <option>C#</option>
+                    <option>Ruby</option>
+                    <option>Java Script</option>
+                </select>
+            </div>
+            <div>
+                <label>Description</label>
+                <textarea name="Description"></textarea>
+            </div>
+            <div>
+                <p><input type="submit" value="submit"></p>
+            </div>
+        </form>
+    </fieldset>

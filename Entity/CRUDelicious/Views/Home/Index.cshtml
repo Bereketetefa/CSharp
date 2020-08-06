@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Dish Add";
+}
+@using CRUDelicious.Models
+@model Dish
+<style>
+        .main_container {
+                width: 900px;
+                height: 600px;
+                margin-left: 30px;
+            }
+</style>
+<h1>Welcome to CRUDelicious</h1>
+<form asp-action="process" class="col-5" method="post">
+    <h2>Add a Dish!</h2>
+    <div class="form-group">
+        <label asp-for="Title">Name of Dish: </label>
+        <input asp-for="Title" class="form-control">
+        <span class="text-danger" asp-asp-validation-for="Title"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="FoodType"> Food Type: </label>
+        <input asp-for="FoodType" class="form-control">
+        <span class="text-danger" asp-asp-validation-for="FoodType"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Chef"> Chef's Name: </label>
+        <input asp-for="Chef" class="form-control">
+        <span class="text-danger" asp-asp-validation-for="Chef"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Calories"># of Calories: </label>
+        <input asp-for="Calories" class="form-control">
+        <span class="text-danger" asp-asp-validation-for="Calories"></span>
+    </div>
+    @* <div class="form-group">
+        <label asp-for="Tastiness">Tastiness:</label>
+        <input asp-for="Tastiness" class="form-control">
+        <span class="text-danger" asp-asp-validation-for="Tastiness"></span>
+    </div> *@
+    <div>
+        <label>Tastiness:</label>
+        <select asp-for="Tastiness">
+        <span class="text-danger" asp-asp-validation-for="Tastiness"></span>
+            <option>0</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select>
+    </div>
+    <input type="submit" value="submit" class="btn btn-warning btn-outline-dark">
+    @* <div class="main_container">
+        <h3>Check out some recent dishes!</h3>
+
+            @for(int i = @ViewBag.Dish.Count-1; i >= 0 ; i --)
+            {
+                <h4><a href="@ViewBag.Dish[i].id">@ViewBag.Dish[i].Title</a> by @ViewBag.Dish[i].Chef</h4>
+
+            }       
+    </div> *@
+</form>

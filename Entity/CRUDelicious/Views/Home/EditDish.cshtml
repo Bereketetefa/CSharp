@@ -1,0 +1,52 @@
+@using CRUDelicious.Models
+@model Dish
+
+    <h1>Edit Dish!</h1>
+<h3><a href="/">Home</a></h3>
+
+<form asp-action="process" class="col-5" method="post">
+    <h2>Add a Dish!</h2>
+    <div class="form-group">
+        <label asp-for="Title">Name of Dish: </label>
+        <input asp-for="Title" class="form-control">
+        <span class="text-danger" asp-asp-validation-for="Title"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="FoodType"> Food Type: </label>
+        <input asp-for="FoodType" class="form-control">
+        <span class="text-danger" asp-asp-validation-for="FoodType"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Chef"> Chef's Name: </label>
+        <input asp-for="Chef" class="form-control">
+        <span class="text-danger" asp-asp-validation-for="Chef"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Calories"># of Calories: </label>
+        <input asp-for="Calories" class="form-control">
+        <span class="text-danger" asp-asp-validation-for="Calories"></span>
+    </div>
+    @* <div class="form-group">
+        <label asp-for="Tastiness">Tastiness:</label>
+        <input asp-for="Tastiness" class="form-control">
+        <span class="text-danger" asp-asp-validation-for="Tastiness"></span>
+    </div> *@
+    <div>
+        <label>Tastiness:</label>
+        <select asp-for="Tastiness">
+        <span class="text-danger" asp-asp-validation-for="Tastiness"></span>
+            <option>0</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select>
+    </div>
+    <a asp-action="DishPage" asp-controller="Home" class="btn btn-primary">Submit</a>
+</form>
+

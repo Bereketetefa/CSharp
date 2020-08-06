@@ -1,0 +1,78 @@
+@model User
+    <style>
+    body{
+    background-image:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+    @* .navbar{
+    background-image:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    } *@
+    </style>
+<div id="wrapper">
+    <h1>Welcome to the Dojo Activity Center!</h1>
+    <nav class="">
+        <a class="navbar-brand" href="#">Welcome, @ViewBag.name.FirstName</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Activity</th>
+                <th scope="col">Date and Time</th>
+                <th scope="col">Duration</th>
+                <th scope="col">Event Coordinator</th>
+                <th scope="col">Number of Participants</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var x in @ViewBag.Activities)
+            {
+                bool going = false;
+            <tr>
+                <td><a href="../CreatedActivity/@x.ActivitiyId">@x.Title</a></td>
+                <td>@x.ActivityDate</td>
+                <td>@x.Duration @x.Hour</td>
+                @foreach(var z in @ViewBag.AllUsers)
+                {
+                    @if(z.UserId == x.ActivityPlanner)
+                    {
+                        <td>@z.FirstName</td>
+                    }
+                }
+                <td>@x.JoinList.Count</td>
+                <td>    
+                    @if(@x.ActivityPlanner == @ViewBag.User)
+                    {
+                    <form action="../Delete/@x.ActivitiyId" method="post">
+                        <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Delete</button>
+                    </form>
+                    }
+                    else
+                    {
+                    @foreach (var y in x.JoinList)
+                    {
+                        @if(@ViewBag.User == y.User.UserId)
+                        {
+                            going = true;
+                        }
+                    }
+                    @if(going == true)
+                        {
+                        <form action="../leave/@x.ActivitiyId" method="post">
+                        <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Leave</button>
+                        </form>
+                        }
+                    else
+                    {
+                    <form action="../join/@x.ActivitiyId/@ViewBag.User" method="post">
+                    <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Join</button>
+                    </form>
+                    }
+                    }
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<a class="btn btn-primary" href="../Activitybuild">New Activity</a>
+
+</div>

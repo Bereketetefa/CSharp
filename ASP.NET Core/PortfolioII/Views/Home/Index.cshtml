@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Hello!</title>
+    <style>
+    * {box-sizing: border-box;}
+    body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    }
+
+    .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    }
+
+    .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    }
+
+    .header a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+
+    .header a.active {
+    background-color: dodgerblue;
+    color: white;
+    }
+
+    .header-right {
+    float: right;
+    }
+
+    .header-right {
+        float: none;
+    }
+
+    h1 {
+
+    }
+
+    p {
+        text-align: left;
+        margin-left: 200px;
+    }
+    </style>
+</head>
+<body>
+        <div class="header">
+        <a href="#default" class="logo"> PortfolioII</a>
+            <div class="header-right">
+                <a class="active" href="/">Home</a>
+                <a href="Projects">Projects</a>
+                <a href="Contacts">Contacts</a>
+            </div>
+    </div>
+
+    <div style="padding-left:20px">
+        <h1>About Me !</h1>
+        <img src="" alt="Sample Photo" />            
+        <p>The amber droplet hung from the branch, reaching fullness and ready to drop. It waited. While many of the other droplets were satisfied to form as big as they could and release, this droplet had other plans. It wanted to be part of history. It wanted to be remembered long after all the other droplets had dissolved into history. So it waited for the perfect specimen to fly by to trap and capture that it hoped would eventually be discovered hundreds of years in the future.</p>
+    </div>
+
+        @* @{
+            List<string> names = new List<string>
+            {
+                "Pizza",
+                "BLT Sandwich",
+                "Lasagna",
+                "Carb Cakes",
+                "Chicken Alfrado"
+            };
+        }
+        <h1>Here are some delicious foods!</h1>
+        <p>@ViewBag.Message</p>
+        
+        @foreach(string n in names)
+        {
+            if (n [0] == 'P')
+            {
+                <p style="color: yellow;">@n</p>
+            }
+            else
+            {
+            <p>@n</p>
+            }
+        } *@
+    </body>
+</html>

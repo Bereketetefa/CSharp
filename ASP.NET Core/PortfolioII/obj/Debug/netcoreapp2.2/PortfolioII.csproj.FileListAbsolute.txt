@@ -1,0 +1,50 @@
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.csprojAssemblyReference.cache
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.csproj.CoreCompileInputs.cache
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.RazorAssemblyInfo.cache
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.RazorAssemblyInfo.cs
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.AssemblyInfoInputs.cache
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.AssemblyInfo.cs
+C:\Users\berek\Desktop\C#\PortfolioII\bin\Debug\netcoreapp2.2\PortfolioII.deps.json
+C:\Users\berek\Desktop\C#\PortfolioII\bin\Debug\netcoreapp2.2\PortfolioII.runtimeconfig.json
+C:\Users\berek\Desktop\C#\PortfolioII\bin\Debug\netcoreapp2.2\PortfolioII.runtimeconfig.dev.json
+C:\Users\berek\Desktop\C#\PortfolioII\bin\Debug\netcoreapp2.2\PortfolioII.dll
+C:\Users\berek\Desktop\C#\PortfolioII\bin\Debug\netcoreapp2.2\PortfolioII.pdb
+C:\Users\berek\Desktop\C#\PortfolioII\bin\Debug\netcoreapp2.2\PortfolioII.Views.dll
+C:\Users\berek\Desktop\C#\PortfolioII\bin\Debug\netcoreapp2.2\PortfolioII.Views.pdb
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.TagHelpers.input.cache
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.TagHelpers.output.cache
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.RazorCoreGenerate.cache
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.RazorTargetAssemblyInfo.cache
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.RazorTargetAssemblyInfo.cs
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.Views.pdb
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.dll
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.pdb
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.csproj.CopyComplete
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\Razor\Views\Home\Projects.g.cshtml.cs
+C:\Users\berek\Desktop\C#\PortfolioII\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contacts.g.cshtml.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\bin\Debug\netcoreapp2.2\PortfolioII.deps.json
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\bin\Debug\netcoreapp2.2\PortfolioII.runtimeconfig.json
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\bin\Debug\netcoreapp2.2\PortfolioII.runtimeconfig.dev.json
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\bin\Debug\netcoreapp2.2\PortfolioII.dll
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\bin\Debug\netcoreapp2.2\PortfolioII.pdb
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\bin\Debug\netcoreapp2.2\PortfolioII.Views.dll
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\bin\Debug\netcoreapp2.2\PortfolioII.Views.pdb
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.csprojAssemblyReference.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.csproj.CoreCompileInputs.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.RazorAssemblyInfo.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.RazorAssemblyInfo.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.AssemblyInfoInputs.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.AssemblyInfo.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.TagHelpers.input.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.TagHelpers.output.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.RazorCoreGenerate.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contacts.g.cshtml.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\Razor\Views\Home\Projects.g.cshtml.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.RazorTargetAssemblyInfo.cache
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.RazorTargetAssemblyInfo.cs
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.Views.pdb
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.dll
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.pdb
+C:\Users\berek\Desktop\C#\ASP.NET Core\PortfolioII\obj\Debug\netcoreapp2.2\PortfolioII.csproj.CopyComplete

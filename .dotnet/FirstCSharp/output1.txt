@@ -1,0 +1,10 @@
+1)PS C:\Users\berek\Desktop\C#> dotnet --version 2.2.107
+
+2)PS C:\Users\berek\Desktop\C#> dotnet new console -o FirstCSharp
+
+3)PS C:\Users\berek\Desktop\C#\FirstCSharp> cd Program.cs
+
+4)PS C:\Users\berek\Desktop\C#\FirstCSharp> dotnet new console
+  
+5)PS C:\Users\berek\Desktop\C#\FirstCSharp> dotnet run
+Hello World!

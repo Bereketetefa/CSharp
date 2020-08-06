@@ -1,0 +1,13 @@
+@model Plan
+@* <a class="btn btn-primary" href="../Dashboard" >Dashboard</a> *@
+@* <a class="btn btn-primary" href="../logout" >Log Out</a> *@
+<h1>@Model.WedderOne & @Model.WedderTwo Wedding</h1>
+<h2>Date: @Model.WeddingDate</h2>
+<h2>Guests</h2>
+@foreach(var x in @Model.GuestList)
+{
+<ul>
+    <li>@x.User.FirstName</li>
+</ul>
+}
+<div>

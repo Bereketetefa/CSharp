@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Dish>
+    <h1>Submitted Info</h1>
+    <table class="table-striped table">
+        <thead>
+            <tr>
+                <th>Dish</th>
+                <th>Food Type</th>
+                <th>Chef's Name</th>
+                <th>Calories</th>
+                <th>Tastiness</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(Dish d in Model)
+                {
+                <tr>
+                    <td> @d.Title</td>
+                    <td> @d.FoodType</td>
+                    <td> @d.Chef</td>
+                    <td> @d.Calories</td>
+                    <td> @d.Tastiness</td>
+                </tr>
+                }
+        </tbody>
+    </table>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-primary">Home</a>
+    <a asp-action="EditDish" asp-controller="Home" class="btn btn-primary">Edit</a>
+    <a asp-action="Delete" asp-controller="Home" class="btn btn-primary">Delete</a>
+    @* <a href="/Delete"><button class="btn btn-danger">Delete</a> *@
+    </a>
+
+@* <a href="/">Go Back</a> *@
+

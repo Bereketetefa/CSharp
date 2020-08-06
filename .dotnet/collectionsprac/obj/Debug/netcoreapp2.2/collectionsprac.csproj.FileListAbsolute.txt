@@ -1,0 +1,11 @@
+C:\Users\berek\Desktop\C#\collectionsprac\obj\Debug\netcoreapp2.2\collectionsprac.csprojAssemblyReference.cache
+C:\Users\berek\Desktop\C#\collectionsprac\obj\Debug\netcoreapp2.2\collectionsprac.csproj.CoreCompileInputs.cache
+C:\Users\berek\Desktop\C#\collectionsprac\obj\Debug\netcoreapp2.2\collectionsprac.AssemblyInfoInputs.cache
+C:\Users\berek\Desktop\C#\collectionsprac\obj\Debug\netcoreapp2.2\collectionsprac.AssemblyInfo.cs
+C:\Users\berek\Desktop\C#\collectionsprac\bin\Debug\netcoreapp2.2\collectionsprac.deps.json
+C:\Users\berek\Desktop\C#\collectionsprac\bin\Debug\netcoreapp2.2\collectionsprac.runtimeconfig.json
+C:\Users\berek\Desktop\C#\collectionsprac\bin\Debug\netcoreapp2.2\collectionsprac.runtimeconfig.dev.json
+C:\Users\berek\Desktop\C#\collectionsprac\bin\Debug\netcoreapp2.2\collectionsprac.dll
+C:\Users\berek\Desktop\C#\collectionsprac\bin\Debug\netcoreapp2.2\collectionsprac.pdb
+C:\Users\berek\Desktop\C#\collectionsprac\obj\Debug\netcoreapp2.2\collectionsprac.dll
+C:\Users\berek\Desktop\C#\collectionsprac\obj\Debug\netcoreapp2.2\collectionsprac.pdb

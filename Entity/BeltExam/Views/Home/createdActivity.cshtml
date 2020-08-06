@@ -1,0 +1,58 @@
+@model Activities
+    <style>
+    body{
+    background-image:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+    @* .navbar{
+    background-image:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    } *@
+    </style>
+<h1>Event Title:@Model.Title</h1>
+<h2>Event Coordinator:
+    @foreach(var name in @ViewBag.AllUsers)
+    {
+            @if(name.UserId == @Model.ActivityPlanner)
+        {
+            <p>@name.FirstName</p>
+        }
+    }
+</h2>
+<h2>Date: @Model.ActivityDate</h2>
+<h2>Description: @Model.Description</h2>
+<h2>Guests</h2>
+
+                    @foreach(var x in @Model.JoinList)
+                    {
+                    <ul>
+                        <li>@x.User.FirstName</li>
+                    </ul>
+                    }
+                    @if(@Model.ActivityPlanner == @ViewBag.User)
+                    {
+                    <form action="../Delete/@Model.ActivitiyId" method="post">
+                        <button type="submit" class="btn btn-success">Delete</button>
+                    </form>
+                    }
+                    else
+                    {
+                        bool going = false;
+                    @foreach (var y in @Model.JoinList)
+                    {
+                        @if(@ViewBag.User == y.User.UserId)
+                        {
+                            going = true;
+                        }
+                    }
+                        @if(going == true)
+                        {
+                        <form action="../leave/@Model.ActivitiyId" method="post">
+                        <button type="submit" class="btn btn-success">Leave</button>
+                        </form>
+                        }
+                        else
+                        {
+                        <form action="../join/@Model.ActivitiyId/@ViewBag.name.UserId" method="post">
+                        <button type="submit" class="btn btn-success">Join</button>
+                        </form>
+                        }
+                    }
